@@ -1,5 +1,15 @@
 # 🛒 QA E-commerce Testing
 
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
+![QA Manual](https://img.shields.io/badge/QA-Manual-blue)
+
+![Cypress](https://img.shields.io/badge/Cypress-em%20breve-brightgreen)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/lalesca-qa/qa-ecommerce-testing)
+
+![License](https://img.shields.io/badge/license-MIT-green)
+
 > 🚧 **Status do Projeto:** Em desenvolvimento
 
 Projeto de portfólio desenvolvido para demonstrar conhecimentos em **Qualidade de Software (QA Manual)** por meio do planejamento, modelagem, execução e documentação de testes em um e-commerce de treinamento.
