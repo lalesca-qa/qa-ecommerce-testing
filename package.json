@@ -1,0 +1,23 @@
+{
+  "name": "qa-ecommerce-testing",
+  "version": "1.0.0",
+  "description": "Projeto de QA manual simulando testes em um e-commerce real (SauceDemo).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalesca-qa/qa-ecommerce-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalesca-qa/qa-ecommerce-testing/issues"
+  },
+  "homepage": "https://github.com/lalesca-qa/qa-ecommerce-testing#readme",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
