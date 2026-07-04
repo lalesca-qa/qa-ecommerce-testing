@@ -1,11 +1,10 @@
-````markdown
 # 🛒 QA E-commerce Testing
 
-> **⚠️ Status do Projeto:** Em desenvolvimento 🚧
+> 🚧 **Status do Projeto:** Em desenvolvimento
 
-Projeto de portfólio desenvolvido para demonstrar conhecimentos em **Qualidade de Software (QA Manual)**, aplicando técnicas de planejamento, modelagem, execução e documentação de testes em um e-commerce de treinamento.
+Projeto de portfólio desenvolvido para demonstrar conhecimentos em **Qualidade de Software (QA Manual)** por meio do planejamento, modelagem, execução e documentação de testes em um e-commerce de treinamento.
 
-O sistema utilizado como objeto de testes é o **SauceDemo**, uma aplicação amplamente utilizada para estudos e automação de testes.
+O sistema utilizado como objeto de testes é o **SauceDemo**, uma aplicação amplamente utilizada para aprendizado de QA Manual e Automação de Testes.
 
 🔗 **Sistema testado:** https://www.saucedemo.com
 
@@ -13,33 +12,36 @@ O sistema utilizado como objeto de testes é o **SauceDemo**, uma aplicação am
 
 # 🎯 Objetivo
 
-Simular o fluxo de trabalho de um Analista de QA durante o ciclo de testes de um e-commerce, contemplando desde o planejamento até a documentação dos resultados encontrados.
+Simular o trabalho de um Analista de QA durante o ciclo completo de testes de um sistema web, desde o levantamento das User Stories até o registro de bugs e análise dos resultados obtidos.
+
+Este projeto também servirá como base para futuras implementações de **Automação de Testes com Cypress**.
 
 ---
 
 # 🚧 Status do Projeto
 
-Este projeto está em desenvolvimento e será atualizado continuamente conforme avanço nos estudos de QA Manual e Automação de Testes.
+O projeto encontra-se em evolução contínua.
 
-### Próximas implementações
+### Roadmap
 
-- [x] Estrutura inicial do projeto
-- [x] Plano de Testes
-- [x] User Stories
-- [x] Casos de Teste
-- [x] Cenários BDD
-- [x] Relatório de Bugs
-- [x] Matriz de Rastreabilidade
-- [x] Métricas de Qualidade
-- [ ] Evidências dos testes (prints e vídeos)
-- [ ] Automação dos testes com Cypress
-- [ ] Relatórios automatizados
-- [ ] Integração com GitHub Actions (CI)
-- [ ] README em inglês
+- ✅ Contexto do Projeto
+- ✅ Plano de Testes
+- ✅ User Stories
+- ✅ Casos de Teste
+- ✅ Cenários BDD
+- ✅ Execução de Testes
+- ✅ Relatório de Bugs
+- ✅ Matriz de Rastreabilidade
+- ✅ Métricas de Qualidade
+- ⏳ Inclusão de evidências (prints e vídeos)
+- ⏳ Automação dos testes com Cypress
+- ⏳ Integração com GitHub Actions
+- ⏳ Relatórios automatizados
+- ⏳ Versão em inglês
 
 ---
 
-# 🛠️ Ferramentas utilizadas
+# 🛠️ Tecnologias e Ferramentas
 
 - Git
 - GitHub
@@ -51,13 +53,13 @@ Este projeto está em desenvolvimento e será atualizado continuamente conforme 
 
 ---
 
-# 📚 Técnicas aplicadas
+# 📚 Técnicas de QA Aplicadas
 
 - Planejamento de Testes
 - Testes Baseados em Risco (Risk-Based Testing)
 - Testes Funcionais
 - Casos de Teste
-- BDD (Behavior Driven Development)
+- Behavior Driven Development (BDD)
 - Registro de Bugs
 - Execução de Testes
 - Matriz de Rastreabilidade
@@ -70,131 +72,119 @@ Este projeto está em desenvolvimento e será atualizado continuamente conforme 
 ```text
 qa-ecommerce-testing/
 │
-├── README.md
-│
-├── 00-contexto-do-projeto/
-│   └── contexto-do-projeto.md
-│
-├── 01-plano-de-testes/
-│   └── plano-de-testes.md
-│
-├── 02-user-stories/
-│   └── user-stories.md
-│
-├── 03-casos-de-teste/
-│   └── casos-de-teste.md
-│
-├── 04-bdd/
+├── bdd/
 │   └── cenarios-bdd.feature
 │
-├── 05-execucao-de-testes/
-│   └── execucao-testes.md
-│
-├── 06-bugs/
+├── bugs/
 │   └── relatorio-de-bugs.md
 │
-├── 07-matriz-rastreabilidade/
+├── casos-de-teste/
+│   └── casos-de-teste.md
+│
+├── contexto-do-projeto/
+│   └── contexto-do-projeto.md
+│
+├── evidencias/
+│   ├── prints/
+│   └── videos/
+│
+├── execucao-de-testes/
+│   └── execucao-testes.md
+│
+├── matriz-rastreabilidade/
 │   └── matriz-rastreabilidade.md
 │
-├── 08-metricas-qa/
+├── metricas-qa/
 │   └── metricas-qualidade.md
 │
-└── 09-evidencias/
-    ├── prints/
-    └── videos/
-````
+├── plano-de-testes/
+│   └── plano-de-teste.md
+│
+├── user-stories-backlog/
+│   └── user-stories.md
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
 ---
 
 # 📄 Documentação
 
-| Documento                 | Descrição                                                                       |
-| ------------------------- | ------------------------------------------------------------------------------- |
-| Contexto do Projeto       | Apresenta o sistema testado, objetivo, perfil do usuário e análise de riscos.   |
-| Plano de Testes           | Define a estratégia, escopo, áreas críticas e critérios de saída.               |
-| User Stories              | Histórias de usuário utilizadas como base para elaboração dos testes.           |
-| Casos de Teste            | Casos de teste para validação das principais funcionalidades.                   |
-| Cenários BDD              | Cenários escritos em Gherkin representando o comportamento esperado do sistema. |
-| Execução de Testes        | Registro da execução dos casos de teste e seus resultados.                      |
-| Relatório de Bugs         | Documentação dos defeitos encontrados durante os testes.                        |
-| Matriz de Rastreabilidade | Relaciona User Stories, Casos de Teste e Bugs.                                  |
-| Métricas de Qualidade     | Indicadores obtidos durante a execução dos testes.                              |
+| Pasta | Descrição |
+|-------|-----------|
+| **contexto-do-projeto** | Apresenta o sistema testado, objetivo, perfil do usuário e análise de riscos. |
+| **plano-de-testes** | Define a estratégia de testes, escopo, áreas críticas e critérios de saída. |
+| **user-stories-backlog** | Histórias de usuário utilizadas como base para elaboração dos testes. |
+| **casos-de-teste** | Casos de teste para validação das funcionalidades do sistema. |
+| **bdd** | Cenários escritos em Gherkin seguindo a abordagem BDD. |
+| **execucao-de-testes** | Registro da execução dos casos de teste. |
+| **bugs** | Documentação dos defeitos encontrados durante os testes. |
+| **matriz-rastreabilidade** | Relaciona User Stories, Casos de Teste e Bugs encontrados. |
+| **metricas-qa** | Indicadores da execução dos testes. |
+| **evidencias** | Prints de tela e vídeos da execução dos testes. |
 
 ---
 
-# 📋 Escopo dos Testes
+# 📋 Funcionalidades Testadas
 
-As seguintes funcionalidades foram avaliadas:
-
-* Login
-* Listagem de produtos
-* Adição de produtos ao carrinho
-* Remoção de produtos do carrinho
-* Fluxo de checkout
+- Login
+- Visualização de produtos
+- Adição de produtos ao carrinho
+- Remoção de produtos do carrinho
+- Fluxo de checkout
 
 ---
 
-# 📊 Resultado da Execução
+# 📊 Resumo da Execução
 
-| Indicador                 | Resultado |
-| ------------------------- | --------: |
-| Casos de teste executados |         3 |
-| Casos aprovados           |         2 |
-| Casos reprovados          |         1 |
-| Taxa de sucesso           |       66% |
-| Bugs críticos encontrados |         1 |
+| Indicador | Resultado |
+|-----------|----------:|
+| Casos de teste executados | 3 |
+| Casos aprovados | 2 |
+| Casos reprovados | 1 |
+| Taxa de sucesso | 66% |
+| Bugs críticos encontrados | 1 |
 
 ---
 
-# 🐞 Bug Identificado
+# 🐞 Bug em Destaque
 
 Durante a execução dos testes foi identificado um bug crítico no fluxo de login.
 
-**Resumo do bug:**
+**Resumo**
 
-* Funcionalidade: Login
-* Severidade: Alta
-* Prioridade: Alta
-* Ambiente: Google Chrome
-* Status: Aberto
-
----
-
-# ✅ Cenários BDD
-
-Os cenários foram modelados utilizando a linguagem **Gherkin**.
-
-Atualmente o projeto contempla:
-
-* Adicionar produto ao carrinho
-* Remover produto do carrinho
+- Funcionalidade: Login
+- Severidade: Alta
+- Prioridade: Alta
+- Ambiente: Google Chrome
+- Status: Aberto
 
 ---
 
-# 🚀 Próximas Evoluções
+# 🔜 Próximas Implementações
 
-O objetivo é transformar este projeto em um portfólio completo de QA, incluindo:
+Este projeto continuará evoluindo com a inclusão de:
 
-* Automação dos testes utilizando Cypress
-* Implementação de Page Object Model (POM)
-* Relatórios automatizados
-* Execução automática com GitHub Actions
-* Captura automática de screenshots em caso de falhas
-* Geração de vídeos das execuções
-* Dashboard de resultados
-* Versão completa em inglês
+- Automação dos testes utilizando Cypress
+- Page Object Model (POM)
+- Relatórios automatizados
+- Execução automática via GitHub Actions
+- Captura automática de screenshots em caso de falha
+- Dashboard de resultados
+- README em inglês
 
 ---
 
-# 👩‍💻 Autora
+# 👩‍💻 Sobre a Autora
 
 **Lalesca Morais Silva**
 
-QA focada em Qualidade de Software, Acessibilidade Digital e Automação de Testes.
+Analista de QA com foco em Qualidade de Software, Acessibilidade Digital e Automação de Testes.
+
+Este repositório faz parte da construção do meu portfólio profissional e será atualizado continuamente conforme minha evolução técnica.
 
 ---
 
-⭐ Caso tenha sugestões de melhorias ou feedback sobre o projeto, fique à vontade para abrir uma Issue ou entrar em contato.
-
-```
-```
+⭐ Se você tiver sugestões de melhoria ou feedback sobre este projeto, fique à vontade para abrir uma Issue.
