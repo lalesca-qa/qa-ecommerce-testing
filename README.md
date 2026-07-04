@@ -1,14 +1,14 @@
 # 🛒 QA E-commerce Testing
 
+<p align="center">
+
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-
 ![QA Manual](https://img.shields.io/badge/QA-Manual-blue)
-
 ![Cypress](https://img.shields.io/badge/Cypress-em%20breve-brightgreen)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/lalesca-qa/qa-ecommerce-testing)
+![License](https://img.shields.io/github/license/lalesca-qa/qa-ecommerce-testing)
 
-![License](https://img.shields.io/badge/license-MIT-green)
+</p>
 
 > 🚧 **Status do Projeto:** Em desenvolvimento
 
@@ -184,6 +184,14 @@ Este projeto continuará evoluindo com a inclusão de:
 - Captura automática de screenshots em caso de falha
 - Dashboard de resultados
 - README em inglês
+
+---
+
+## 📦 Última Release
+
+**v1.0.0** – Documentação inicial do projeto concluída.
+
+Consulte a aba **Releases** para acompanhar a evolução das próximas versões.
 
 ---
 
