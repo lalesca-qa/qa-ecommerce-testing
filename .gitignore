@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
